@@ -1,3 +1,9 @@
+commit 40eef9da401e70ad960808896d31533de9eae58d
+Author: Badr Tazi <tasibadr@gmail.com>
+Date:   Sun Apr 3 21:50:49 2016 +0100
+
+    added the 'toggle_completion', 'completed?' to the Item class and the 'print_info' methods to the Item & TodoList classes
+
 commit 50431cb38299778a0fefcd99e64d950ea982e9e3
 Author: Badr Tazi <tasibadr@gmail.com>
 Date:   Sun Apr 3 21:21:28 2016 +0100

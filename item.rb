@@ -1,9 +1,11 @@
 class Item
-	attr_accessor :description, :completed_status
+	attr_accessor :description, :completed_status, :due_date, :important
 	
-	def initialize(item_description)
+	def initialize(item_description, due_date="Tomorrow", important=false)
 		@description = item_description
 		@completed_status = false
+		@due_date = due_date
+		@important = important 
 	end
 
 	def toggle_completion
