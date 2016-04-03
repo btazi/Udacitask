@@ -5,4 +5,5 @@ class Item
 		@description = item_description
 		@completed_status = false
 	end
+
 end

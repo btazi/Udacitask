@@ -11,4 +11,19 @@ class TodoList
 		@items.push(item)
 	end
 
+	def remove_item(item_description)
+		self.items.delete_if {|item| item.description == item_description}
+	end
+
+  def self.all
+    ObjectSpace.each_object(self).to_a
+  end
+
+	def self.find(title)
+		TodoList.all.find {|todo| todo.title == title}
+	end
+
+	def rename(new_name)
+		self.title = new_name
+	end
 end
