@@ -26,4 +26,13 @@ class TodoList
 	def rename(new_name)
 		self.title = new_name
 	end
+
+	def print_info
+		puts "**********"
+		puts "#{self.title}"
+		puts "**********"
+		self.items.each_with_index do |item, index|
+			puts "#{item.print_info}"
+		end
+	end
 end

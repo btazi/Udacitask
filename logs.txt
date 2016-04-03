@@ -1,3 +1,9 @@
+commit 50431cb38299778a0fefcd99e64d950ea982e9e3
+Author: Badr Tazi <tasibadr@gmail.com>
+Date:   Sun Apr 3 21:21:28 2016 +0100
+
+    added the 'add_item', 'remove_item' and 'rename' methods to the TodoList class
+
 commit 98d79a184e184ab45e8f6bcc95c5513d78649965
 Author: Badr Tazi <tasibadr@gmail.com>
 Date:   Sun Apr 3 19:53:33 2016 +0100
