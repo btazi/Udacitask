@@ -24,7 +24,11 @@ class Item
 		Item.all.find {|item| item.description == description}
 	end
 
+	def important?
+		self.important
+	end
+
 	def print_info
-		puts "#{self.description}: #{self.completed? ? "Completed" : "Not Completed"}"
+		puts "#{self.description}: #{self.completed? ? "Completed" : "Not Completed"} - when: #{self.due_date} #{"- IMPORTANT" if self.important?}"
 	end
 end

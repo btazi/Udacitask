@@ -1,3 +1,9 @@
+commit a6b4ff0d103455d8e1bc8a1eb7411e0c3f39c5e9
+Author: Badr Tazi <tasibadr@gmail.com>
+Date:   Sun Apr 3 23:10:35 2016 +0100
+
+    added 3 new features: TodoList/export_to_csv, Item/due dates and Item/important
+
 commit 40eef9da401e70ad960808896d31533de9eae58d
 Author: Badr Tazi <tasibadr@gmail.com>
 Date:   Sun Apr 3 21:50:49 2016 +0100

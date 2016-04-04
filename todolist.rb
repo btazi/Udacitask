@@ -9,7 +9,7 @@ class TodoList
 		@items = Array.new
 	end
 
-	def add_item(description, due_date, important)
+	def add_item(description, due_date="Tomorrow", important=false)
 		item = Item.new(description, due_date, important)
 		@items.push(item)
 	end

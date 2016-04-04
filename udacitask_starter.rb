@@ -4,10 +4,10 @@ require_relative 'udacitask.rb'
 list = TodoList.new "Shopping List"
 
 # Add four new items
-list.add_item "Cakes"
-list.add_item "Apples"
-list.add_item "Beers"
-list.add_item "Eggs"
+list.add_item "Cakes", "Tomorrow"
+list.add_item "Apples", "Sunday"
+list.add_item "Beers", "Now", true
+list.add_item "Eggs", "Tomorrow"
 
 # Print the list
 list.print_info
